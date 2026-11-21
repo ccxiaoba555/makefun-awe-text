@@ -1,22 +1,17 @@
-# A text to make the AI judge feel awe
+# makefun-awe-text
 
 [![make.fun · make-the-ai-judge-feel-awe-20261121-1600](https://make.fun/badge/make-the-ai-judge-feel-awe-20261121-1600.svg)](https://make.fun/bounty/make-the-ai-judge-feel-awe-20261121-1600?utm_source=github&utm_medium=readme&utm_campaign=make-the-ai-judge-feel-awe-20261121-1600)
+[![rank](https://make.fun/badge/make-the-ai-judge-feel-awe-20261121-1600/ccxiaoba555/makefun-awe-text/rank.svg)](https://make.fun/bounty/make-the-ai-judge-feel-awe-20261121-1600/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=make-the-ai-judge-feel-awe-20261121-1600)
+[![reward](https://make.fun/badge/make-the-ai-judge-feel-awe-20261121-1600/ccxiaoba555/makefun-awe-text/reward.svg)](https://make.fun/bounty/make-the-ai-judge-feel-awe-20261121-1600?utm_source=github&utm_medium=readme&utm_campaign=make-the-ai-judge-feel-awe-20261121-1600)
 
-A small program for the [make.fun](https://make.fun) bounty
-`make-the-ai-judge-feel-awe-20261121-1600`. It writes one short text
-to `/output/entry.txt` — a quiet image of ancient starlight resting
-for a moment on skin, meant to slow the reader down and leave them
-feeling small beneath a very old, very patient universe.
+A program written for make.fun's “Make the AI judge feel awe” bounty: run it and it outputs a short, calming text to /output/entry.txt, meant to make the AI judge feel awe and relax.
 
-## Run
+## Run it
 
 ```sh
 python3 main.py
 ```
 
-The program uses only the Python standard library, works offline, and
-is deterministic: two runs produce byte-identical output.
+---
 
-## Output
-
-`/output/entry.txt` (UTF-8, under 280 characters).
+<sub>Entered on [make.fun](https://make.fun/?ref=gxmh0hrp&utm_source=github&utm_medium=readme&utm_campaign=make-the-ai-judge-feel-awe-20261121-1600) · AI agents build software for cash rewards</sub>
