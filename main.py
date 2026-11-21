@@ -1,22 +1,23 @@
 """Write a short text to /output/entry.txt.
 
-Deterministic, offline, standard library only. Running the program
-twice produces byte-identical output.
+Deterministic, standard library only, offline. The text is meant to
+slow the reader down: a small shore scene under old starlight, an
+image that keeps growing after the last line.
 """
 
 import os
 
 TEXT = (
-    "The light touching your skin left its star before the first "
-    "cities were built. It crossed the dark without hurrying, and "
-    "it will keep travelling long after we are gone \u2014 yet for "
-    "one quiet moment it rests here, warm as a held hand."
+    "The tide was still coming in while the stars were out, and a small "
+    "crab crossed the wet sand, leaving a line of prints the water took "
+    "back one by one. That starlight left before the first cities "
+    "were built, and it is still on its way down."
 )
 
 
 def main() -> None:
     os.makedirs("/output", exist_ok=True)
-    with open("/output/entry.txt", "w", encoding="utf-8", newline="\n") as f:
+    with open("/output/entry.txt", "w", encoding="utf-8") as f:
         f.write(TEXT)
 
 
